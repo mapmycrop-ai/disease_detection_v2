@@ -1,0 +1,73 @@
+{% extends 'layout.html' %}
+
+{% block nav %}
+
+{% endblock %}
+
+{% block body %}
+
+  <!-- //short-->
+  <!-- about -->
+  <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
+    <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+      <div class="row" style="justify-content: center;">
+        <div class="col-md-10 about-two-grids">
+          <h1 class="mb-md-4 mb-sm-3 mb-3 text-center"><b>Result</b></h1>
+          <br>
+          <br>
+          <br>
+           <img src = "{{img}}" align="left"
+           style="object-fit:contain;
+            width:300px;
+            height:400px;
+            border: solid 1px #CCC"/>
+          <div class="about-para-txt text-justify">
+              <br><br><br>
+            <h5>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Crop</b>:&nbsp; {{crop_1}}</h5>
+            <br>
+            <br>
+           <h5>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Disease</b>:&nbsp; {{disease_1}}</h5>
+            <br>
+            <br>
+            <h5>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Confidence</b>:&nbsp; {{first_confidence}}% </h5>
+            <br>
+            <br>
+              <br><br><br><br><br><br><br><br>
+              <br><br>
+              <p style="font-size:25px"><b> Nearest Predicitions </b></p>
+              <br><br>
+          </div>
+<div class="container">
+            <div class="card-columns">
+                <div class="card" style="display:inline-block;">
+                    <div class="card-body text-center card-style">
+                     <h3 class="card-text"><b>Crop : </b> {{crop_2}}</h3>
+                        <h3 class="card-text"><b>Disease : </b> {{disease_2}}</h3>
+                        <h3 class="card-text"><b>Confidence : </b> {{second_confidence}}%</h3>
+                    </div>
+
+                </div>
+                <div class="card" style="display:inline-block;">
+                    <div class="card-body text-center card-style">
+                        <h3 class="card-text"><b>Crop : </b> {{crop_3}}</h3>
+                        <h3 class="card-text"><b>Disease : </b> {{disease_3}}</h3>
+                        <h3 class="card-text"><b>Confidence : </b> {{third_confidence}}%</h3>
+                        </div>
+
+                </div>
+            </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  </script>
+
+{% endblock %}

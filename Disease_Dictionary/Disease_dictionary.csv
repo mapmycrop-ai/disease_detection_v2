@@ -1,0 +1,59 @@
+Prediction,Crop,Disease
+Apple_Apple_Scab, Apple, Apple Scab
+Apple_Black_Rot, Apple, Black Rot
+Apple_Cedar_Apple_Rust, Apple, Apple Rust
+Apple_Healthy, Apple, Healthy
+Bell_Pepper_Bacterial_Spot, Bell pepper, Bacterial Spot
+Bell_Pepper_Healthy, Bell Pepper, Healthy
+Blueberry_Healthy, Blueberry, Healthy
+Cherry(Including_Sour)_Healthy, Cherry, Healthy
+Cherry(Including_Sour)_Powdery_Mildew,Cherry, Powdery_Mildew
+Corn(Maize)_Cercospora_Gray_Leaf_Spot, Corn, Gray_Leaf_Spot
+Corn(Maize)_Common_Rust, Corn, Common Rust
+Corn(Maize)_Healthy, Corn, Healthy
+Corn(Maize)_Northern_Leaf_Blight, Corn, Northern_Leaf_Blight
+Cotton_Bacterial_Blight,Cotton_Plant,Bacterial Blight
+Cotton_Curl_Virus,Cotton_Plant,Curl Virus
+Cotton_Fussarium_Wilt,Cotton_Plant,Fussarium_Wilt
+Cotton_Healthy,Cotton_Plant,Healthy
+Grape_Black_Rot, Grape, Black Rot
+Grape_Esca(Black_Measles), Grape, Black_Measles
+Grape_Healthy, Grape, Healthy
+Grape_Leaf_Blight(Isariopsis_Leaf_Spot), Grape, Leaf_Blight
+Objects,Objects,Not a crop
+Orange_Haunglongbing(Citrus_Greening), Orange, Citrus_Greening
+Peach_Bacterial_Spot, Peach, Bacterial_Spot
+Peach_Healthy,Peach, Healthy
+Potato_Early_Blight, Potato, Early Blight
+Potato_Healthy, Potato, Healthy
+Potato_Late_Blight,Potato,Late Blight
+Raspberry_Healthy, Raspberry, Healthy
+Rice_Bacterial_Leaf_Blight,Rice,Bacterial Leaf Blight
+Rice_Blast,Rice,Blast
+Rice_Brown_Spot,Rice,Brown Spot
+Rice_Healthy,Rice,Healthy
+Rice_Leaf_Smut,Rice,Leaf smut
+Rice_Sheath_Blight,Rice,Sheath Blight
+Rice_Tungro,Rice,Tungro
+Soybean_Healthy, Soybean, Healthy
+Squash_Powdery_Mildew, Squash, Powdery Mildew
+Strawberry_Healthy, Strawberry, Healthy
+Strawberry_Leaf_Scorch, Strawberry, Leaf Scorch
+Sugarcane_Bacterial_Blight,Sugarcane,Bacterial Blight
+Sugarcane_Healthy,Sugarcane,Healthy
+Sugarcane_Red_Rot,Sugarcane,Red rot
+Tomato_Bacterial_Spot, Tomato, Bacterial Spot
+Tomato_Early_Blight, Tomato, Early Blight
+Tomato_Healthy, Tomato, Healthy
+Tomato_Late_Blight, Tomato, Late Blight
+Tomato_Leaf_Mold, Tomato, Leaf Mold
+Tomato_Mosaic_Virus, Tomato, Mosaic Virus
+Tomato_Septoria_Leaf_Spot, Tomato, Septoria Leaf Spot
+Tomato_Target_Spot, Tomato, Target Spot
+Tomato_Two_Spotted_Spider_Mite, Tomato, Two Spotted Spider Mite
+Tomato_Yellow_Leaf_Curl_Virus, Tomato, Yellow Leaf Curl Virus
+Wheat_Brown_Rust,Wheat,Brown rust
+Wheat_Healthy,Wheat,Healthy
+Wheat_Septoria,Wheat,Septoria
+Wheat_Stripe_Rust,Wheat,Stripe rust
+Wheat_Yellow_Rust,Wheat,Yellow rust
