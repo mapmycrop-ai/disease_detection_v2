@@ -72,8 +72,11 @@ def disease_predict():
             pass
     return render_template('disease_result.html', status=500, res="Internal Server Error")
 
-# ===============================================================================================
-if __name__ == '__main__':
+#######################
+
+if __name__ == "__main__":
     app.run(debug=False)
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=5000)
 
 
